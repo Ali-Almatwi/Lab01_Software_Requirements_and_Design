@@ -1,0 +1,107 @@
+UseCaseModel HotelManagamentSystem {
+
+	UC::checkIn "check In Guest" include updateRoom, addRes definedBySSD(CheckInSSD) relatedService(CheckInService)
+	UC::checkOut "check Out Guest" include updateRoom, takePayment definedBySSD(CheckOutSSD) relatedService(CheckOutService)
+	UC::addRes "Add Reservation" definedBySSD(AddResSSD) relatedService(AddResService)
+	UC::updateRoom "Update Room Status" definedBySSD(UpdateRoomSSD) relatedService(UpdateRoomService)
+	UC::addStaff "Add Staff" definedBySSD(AddStaffSSD) relatedService(AddStaffService)
+	UC::generateBills "Generate Bills" definedBySSD(GenerateBillsSSD) relatedService(GenerateBillsService)
+	UC::takePayment "Take Payment" definedBySSD(TakePaymentSSD) relatedService(TakePaymentService)
+
+	Actor Guest("Guest") extends Receptionist {
+	}
+
+	Actor Receptionist("Receptionist") {
+		checkIn
+		checkOut
+		addRes
+	}
+
+	Actor Housekeeper("Housekeeper") {
+		updateRoom
+	}
+
+	Actor Manager("Manager") {
+		addStaff
+	}
+
+	Actor Accountant("Accountant") {
+		generateBills
+		takePayment
+	}
+
+	Interaction CheckInSSD {
+
+		[Participants: Receptionist CheckInService]
+
+	}
+
+	Interaction AddResSSD {
+
+		[Participants: Receptionist AddResService]
+
+	}
+
+	Interaction UpdateRoomSSD {
+
+		[Participants: Housekeeper UpdateRoomService]
+
+	}
+
+	Interaction TakePaymentSSD {
+
+		[Participants: Accountant TakePaymentService]
+
+	}
+
+	Interaction GenerateBillsSSD {
+
+		[Participants: Accountant GenerateBillsService]
+
+	}
+
+	Interaction AddStaffSSD {
+
+		[Participants: Manager AddStaffService]
+
+	}
+
+	Interaction CheckOutSSD {
+
+		[Participants: Receptionist CheckOutService]
+
+	}
+
+	Service HotelManagamentSystemSystem {} Service ThirdPartyServices {}
+
+	Service CheckInService {
+
+	}
+
+	Service AddResService {
+
+	}
+
+	Service UpdateRoomService {
+
+	}
+
+	Service TakePaymentService {
+
+	}
+
+	Service GenerateBillsService {
+
+	}
+
+	Service AddStaffService {
+
+	}
+
+	Service CheckOutService {
+
+	}
+
+}
+DomainModel HotelManagamentSystem {}
+
