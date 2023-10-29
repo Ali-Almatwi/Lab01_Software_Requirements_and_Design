@@ -68,14 +68,15 @@ During the prototyping using RM2PT, I encountered a critical issue that prevente
 
 1. Unclear Instructions: The software does not offer clear guidelines on its utilization, especially for beginners.
 2. Syntax Errors: While writing user stories, the software frequently produced syntax errors.
-3. Lack of Error Solutions: When errors occur, the software does not provide instructive solutions or explanations on how to resolve them.
-4. Misleading Error Prompts: Sometimes, the software indicates errors in certain areas, but the actual solution lies in addressing a different part of the project.
-5. Challenges with OCL Contracts: Implementing OCL contracts proved to be tough.
-6. Prototyping Limitations: Generating prototypes was a challenging affair.
-7. No Backtracking Functionality: The software lacks features like "undo."
-8. Sequence System Diagram (SSD) Issues: The software sometimes generates inconsistent SSDs.
-9. Graphical Anomalies: Simple actions like adding a “MessageCall” to the sequence diagram would sometimes not reflect immediately.
-10. Prototyping Failures: Even after investing significant time, the software's prototyping process can still fail.
-11. Lack of Comprehensive Tutorials: For advanced features and troubleshooting, there seems to be a dearth of comprehensive tutorials or guides.
+3. 3. OLC Syntax Variation: The OLC syntax used in the software differs from the one commonly used, leading to confusion and challenges.
+4. Lack of Error Solutions: When errors occur, the software does not provide instructive solutions or explanations on how to resolve them.
+5. Misleading Error Prompts: Sometimes, the software indicates errors in certain areas, but the actual solution lies in addressing a different part of the project.
+6. Challenges with OCL Contracts: Implementing OCL contracts proved to be tough.
+7. Prototyping Limitations: Generating prototypes was a challenging affair.
+8. No Backtracking Functionality: The software lacks features like "undo."
+9. Sequence System Diagram (SSD) Issues: The software sometimes generates inconsistent SSDs.
+10. Graphical Anomalies: Simple actions like adding a “MessageCall” to the sequence diagram would sometimes not reflect immediately.
+11. Prototyping Failures: Even after investing significant time, the software's prototyping process can still fail.
+12. Lack of Comprehensive Tutorials: For advanced features and troubleshooting, there seems to be a dearth of comprehensive tutorials or guides.
 
 In conclusion, while RM2PT might offer certain benefits and features, these challenges highlight areas of improvement. Addressing these limitations can make the software more user-friendly and efficient for system modeling and prototyping tasks.
