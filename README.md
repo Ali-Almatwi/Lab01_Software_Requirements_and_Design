@@ -29,6 +29,7 @@ The HotelManagementSystem is a comprehensive software suite designed to automate
 ## Natural Language Requirements Part:
 ### User Stories
 <img width="468" alt="image" src="https://github.com/Ali-Almatwi/Software-Requirements-and-Design/assets/148684334/b0a31d8f-bda1-44c7-b5e5-fc447b8d502f">
+
 <img width="468" alt="image" src="https://github.com/Ali-Almatwi/Software-Requirements-and-Design/assets/148684334/5f18b3ec-cc90-474d-88c1-637cd7017d76">
 
 
