@@ -54,7 +54,7 @@ This is a sequence diagram detailing the check-in process. Sequence diagrams sho
 The provided code represents OCL (Object Constraint Language) contracts for two service operations in a hotel management system. 
 
 ## Conceptual Class Diagram for Domain Model
-![image](https://github.com/Ali-Almatwi/Software-Requirements-and-Design/assets/148684334/69cc6f87-12dc-4323-b30c-9164b5a8da44)
+![class](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/a95f9542-ad3e-44a8-9279-8b4f2751fa09)
 
 Within the realm of our Hotel Management System, the Conceptual Class Diagram serves as a visual representation of the major entities or classes, capturing the relationships and attributes vital for the system's functionality.
 
