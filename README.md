@@ -38,19 +38,26 @@ The project documented major system functions using structured user stories. The
 
 The UML model captures the operational aspects of the system:
 - **Use Case Diagram:** Illustrates high-level user-system interactions through actors and their actions. For example, the "View Medical History" use case.
-  // UPLOAD PHOTO
+  ![2c422f06-91f8-4b26-bcfa-43079db3940f](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/c8d70b7d-f223-4547-aab1-f3e0f87d0123)
+
 - **Sequence Diagrams:** Describe specific system operation flows. For example, the steps involved in appointment scheduling.
-  // UPLOAD PHOTO
+![1c063f71-e292-4819-a7cb-dfde43434e82](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/91d37e37-ce9a-435b-937d-e755e11e4168)
+
 - **Class Diagram:** Defines the main real-world entities in the system and their relationships. For example, the association between Patient and Doctor classes with the Appointment class.
-  // UPLOAD PHOTO
-- **OCL Contracts:** Establish formal rules and constraints. For example, ensuring only authenticated users can access records.
-  // UPLOAD PHOTO
+  ![138d1874-e471-4277-85fb-474c344f76a6](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/8a69fe96-740a-4971-9e8f-cedab3d75a64)
+
+- **OCL Contracts:** Establish formal rules and constraints. For example, ensuring that the doctor exist.
+  ![5eed0801-769e-456c-ba91-7947a843558b](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/63f369e0-faf9-4bb5-a35a-f130e9c874bf)
+
 
 ### Prototype Generation
 
 
 The use of RM2PT for automated prototype creation enabled the visualization of interactions and the validation of requirements. These prototypes facilitated the simulation of workflows.
-// UPLOAD PHOTO
+![prto](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/7e44a501-0154-4da0-a410-27427b8daa73)
+![7431b12f-1d67-43cf-a48c-cc130ae78777](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/d24e26d3-0544-4209-a068-7a2ecaeb70be)
+![51713323-0805-4b52-9109-5b4d84089359](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/8d9f849c-3dfd-443d-bccd-62622409ef59)
+
 ## Conclusion
 
 Despite its limitations, RM2PT effectively bridged the gap between theory and implementation, enhancing analytical competencies through practical application.
