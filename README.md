@@ -34,7 +34,7 @@ The HospitalCRM system is designed to enhance patient relationship management an
 
 The project documented major system functions using structured user stories. These stories follow a standard template covering stakeholders, needs, and benefits.
 // UPLOAD PHOTO 
-### UML Model
+### UML Requirements Model
 
 The UML model captures the operational aspects of the system:
 - **Use Case Diagram:** Illustrates high-level user-system interactions through actors and their actions. For example, the "View Medical History" use case.
