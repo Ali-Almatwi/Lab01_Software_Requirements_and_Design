@@ -33,7 +33,10 @@ The HospitalCRM system is designed to enhance patient relationship management an
 ### Natural Language Requirements
 
 The project documented major system functions using structured user stories. These stories follow a standard template covering stakeholders, needs, and benefits.
-// UPLOAD PHOTO 
+![8a02889f-d745-4e76-868d-c5efda4c5da2](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/4b56d33e-9b0b-4792-9431-7d9135078388)
+![60698f1b-464b-4066-bff7-fbcbac512558](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/aff590f1-2c88-4799-99ee-940d3d42fb1a)
+![d591e06b-f2e7-4264-83e9-17b713c49a8a](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/95442f2a-368c-40c8-8a99-08f1ec7a66ce)
+
 ### UML Requirements Model
 
 The UML model captures the operational aspects of the system:
