@@ -70,7 +70,7 @@ Despite its limitations, RM2PT effectively bridged the gap between theory and im
 
 ## Introduction
 
-This lab report investigates the application of RM2MS and RapidMS, plugins within the RM2PT tool, designed to automate the translation of user requirements into system architecture and detailed object-oriented design. Focusing on the development of a Hospital Customer Relationship Management (HospitalCRM) system, the lab illustrates how these tools facilitate the creation of a microservices architecture and an object-oriented design, essential for modern, scalable, and maintainable software solutions.
+This lab we investigates the application of RM2MS and RapidMS, plugins within the RM2PT tool, designed to automate the translation of user requirements into system architecture and detailed object-oriented design. Focusing on the development of a Hospital Customer Relationship Management (HospitalCRM) system, the lab illustrates how these tools facilitate the creation of a microservices architecture and an object-oriented design, essential for modern, scalable, and maintainable software solutions.
 
 
 ## Task 1: Automated Generation of Architecture Design (RapidMS)
