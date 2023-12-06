@@ -64,3 +64,28 @@ The use of RM2PT for automated prototype creation enabled the visualization of i
 ## Conclusion
 
 Despite its limitations, RM2PT effectively bridged the gap between theory and implementation, enhancing analytical competencies through practical application.
+
+
+#  Lab 3: Automated generation of architectural design and detailed design
+
+## Introduction
+
+This lab report investigates the application of RM2MS and RapidMS, plugins within the RM2PT tool, designed to automate the translation of user requirements into system architecture and detailed object-oriented design. Focusing on the development of a Hospital Customer Relationship Management (HospitalCRM) system, the lab illustrates how these tools facilitate the creation of a microservices architecture and an object-oriented design, essential for modern, scalable, and maintainable software solutions.
+
+
+## Task 1: Automated Generation of Architecture Design (RapidMS)
+
+In this task, we learned to use the RapidMS plugin of RM2PT for automating the creation of a microservices architecture from a given set of requirements. By analyzing the HospitalCRM system's needs, we applied RapidMS to identify and define microservices, such as patient feedback and appointment scheduling, translating these requirements into a service-oriented architecture model. This hands-on experience highlighted the utility of RapidMS in simplifying the initial stages of system design.
+
+- **HospitalCRM Use case Model Microservices Architecture** 
+![1621701883358_ pic](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/6b12b16a-fc17-4330-82e2-150a3635ce75)
+
+-  **HospitalCRM Domain Model Microservices Architecture** 
+![1641701883359_ pic](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/36e1ecd4-66d9-4520-b106-b79426d88653)
+
+##  Task 2:Automated Generation of object-oriented Detailed Design (RM2DM)
+
+In Task 2, we engaged with the RM2DM plugin to automate the creation of an object-oriented design from the HospitalCRM system's requirements. This involved converting use cases into detailed class diagrams that define the system's structure, including classes, attributes, and relationships. The process underscored RM2DM's utility in streamlining the design phase and translating theoretical OO principles into practical, executable design elements.
+
+![1651701883388_ pic_hd](https://github.com/Ali-Almatwi/Lab01_Software_Requirements_and_Design/assets/148684334/360603fb-9382-4040-8cee-0583da049665)
+
